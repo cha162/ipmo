@@ -1,0 +1,72 @@
+.navbar {
+    background-color: maroon;
+}
+
+.add-author,
+.add-adviser {
+    margin-bottom: 15px;
+}
+
+.close-author,
+.close-adviser {
+    margin-top: 5px;
+}
+
+#dropbtns {
+    color: blue;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdowns {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdowns-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.dropdowns-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdowns-content a:hover {
+    background-color: gray;
+}
+
+.dropdowns:hover .dropdowns-content {
+    display: block;
+}
+
+.card {
+    width: 75%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+
+.card-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.card-body {
+    text-align: left;
+    color: black;
+}

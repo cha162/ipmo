@@ -1,0 +1,30 @@
+/* Style for the card elements */
+.col-sm-3 {
+    width: 5%;
+    margin-right: 2%;
+    float: left;
+}
+
+.card {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card i {
+    color: #333;
+    font-size: 40px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    color: #333;
+}
+

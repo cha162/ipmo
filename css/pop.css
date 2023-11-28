@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.popup {
+    width: 350px;
+    background: maroon;
+    top: 0;
+    left:50%;
+    transform: translate(-100%, -100%) scale(0.1);
+    text-align: center;
+    padding: 0 5px 10px;
+    color:#333;
+    visibility: hidden;
+    transition: transform 0.9s, top 0.9s;
+}
+
+.open-popup{
+    visibility: visible;
+    top: 100%;
+    transform: translate(-100%,-500%) scale(1);
+}
+
+.popup h2{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 5px;
+    color: white;
+    padding-top: 15px;
+}
+
+.popup p{
+color: #fff;
+}
+
+.popup button{
+    width: 15%;
+    margin-bottom: 5px;
+    margin-left: 75%;
+    padding: 2px 0 3px;
+    background: white;
+    color: black;
+    border: 0;
+    border-radius: 4px;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}

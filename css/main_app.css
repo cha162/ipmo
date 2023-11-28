@@ -1,0 +1,79 @@
+
+/* Add some basic styling to the modal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+     #pdfModal {
+        display: none;
+        position: fixed;
+        z-index: 1050;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    #pdfContent {
+        margin: 5% auto;
+        padding: 20px;
+        width: 80%;
+        max-width: 800px;
+        background-color: #fff;
+    }
+    /* Add this style to align document types and PDF buttons */
+/* Add these styles to format the table */
+#mainAppTable {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+#mainAppTable th, #mainAppTable td {
+border: 1px solid #ccc;
+padding: 8px;
+text-align: center;
+}
+
+/* Add this style for the "See All Information" button */
+.show-all .see-all-button {
+background-color: #ddd;
+}
+
+/* Hide the remarks-comments-container and pdf-buttons-container by default */
+.remarks-comments-container,
+.pdf-buttons-container {
+display: none;
+}
+
+/* Display them when the row is expanded */
+.show-all .remarks-comments-container,
+.show-all .pdf-buttons-container {
+display: block;
+}
+/* Add this style for the "See All PDF" button */
+.show-all-pdf .see-all-pdf-button {
+background-color: #ddd;
+}
+
+/* Add this style for the "See All Remarks" button */
+.show-all-remarks .see-all-remarks-button {
+background-color: #ddd;
+}
+
+/* Show the PDF buttons when the "See All PDF" button is clicked */
+.show-all-pdf .pdf-buttons-container {
+display: block;
+
+}
+
+/* Show the Remarks and Comments when the "See All Remarks" button is clicked */
+.show-all-remarks .remarks-comments-container {
+display: block;
+}
